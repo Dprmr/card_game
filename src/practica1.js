@@ -22,8 +22,6 @@ this.loop= function() {
 	var aux=this;
 	setInterval(function(){
 		aux.pinta();}, 16);
-
-
 };
 this.reparte= function() {
 	var mazo = [this.dificultad,this.dificultad,this.dificultad,this.dificultad,this.dificultad,this.dificultad,this.dificultad,this.dificultad];
